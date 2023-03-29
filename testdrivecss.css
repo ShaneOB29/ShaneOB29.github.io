@@ -1,0 +1,25 @@
+body {
+   background-color:#FFFFFF;
+   }
+
+h1 {
+   color:#c8a351;
+   margin-left:20px;
+   font-family: Garamond,serif;
+   }
+
+h3 {
+	color:#c8a351;
+	font-size:18px
+    }
+	
+	p  {
+          font-family: Verdana,Helvetica,sans-serif;
+          font-size:14px;
+		  color:#000080;
+	}
+
+button{
+	  color:#FEFFFF;
+
+	}
