@@ -40,3 +40,26 @@ button{
         color: #c8a351;
         text-align: right;
   }
+  body {
+   background-color: black;
+ }
+ 
+ #calendar {
+   background-color: white;
+ }
+ 
+ .btn-primary {
+   background-color: #c8a351;
+   border-color: #c8a351;
+ }
+ 
+ .form-control {
+   background-color: white;
+   border-color: #c8a351;
+ }
+ 
+ label {
+   color: #c8a351;
+ }
+ 
+ 

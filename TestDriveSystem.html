@@ -36,8 +36,8 @@
             <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
           </div>
           <div class="form-group">
-            <label for="date">Date and Time</label>
-            <input type="text" class="form-control" id="date" placeholder="Select a date and time">
+            <label for="date">Make and Model</label>
+            <input type="text" class="form-control"  placeholder="Make and Model of Car">
           </div>
           <button type="submit" class="btn btn-primary">Book Test Drive</button>
         </form>
@@ -62,7 +62,7 @@
         selectHelper: true,
         select: function(start, end) {
           // Handle the selection event
-          $('#date').val(moment(start).format('YYYY-MM-DD HH:mm:ss'));
+          $('#date').val(moment(start).format('YYYY-MM-DD HH:mm:'));
         },
         editable: false,
         eventLimit: true, // allow "more" link when too many events
