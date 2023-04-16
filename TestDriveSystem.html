@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="description" content="Fill Out the Form to Book A Test Drive"
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test Drive Booking System</title>
@@ -51,7 +52,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
   <script>
     $(document).ready(function() {
-      // Initialize the calendar
+      
       $('#calendar').fullCalendar({
         header: {
           left: 'prev,next Today',
@@ -61,13 +62,13 @@
         selectable: true,
         selectHelper: true,
         select: function(start, end) {
-          // Handle the selection event
+          
           $('#date').val(moment(start).format('YYYY-MM-DD HH:mm:'));
         },
         editable: false,
-        eventLimit: true, // allow "more" link when too many events
+        eventLimit: true, 
         events: [
-          // Add events here (if any)
+          
         ]
       });
     });
